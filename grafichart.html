@@ -1,39 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Grafica dinamica pruebas</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="libs/jquery.min.js" charset="utf-8"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
     </head>
     <body>
-        <canvas id="myChart" ></canvas>
+
+        <label for="">Usuarios por semana</label>
+<label for="">Lunes</label><input type="text" id="mon" name="" value="2603">
+<label for="">Martes</label><input type="text" id="tues" name="" value="2803">
+<label for="">Miercoles</label><input type="text" id="wed" name="" value="2803">
+<label for="">Jueves</label><input type="text" id="thur" name="" value="2343">
+<label for="">Viernes</label><input type="text" id="fri" name="" value="4203">
+<label for="">Sabado</label><input type="text" id="sat" name="" value="2853">
+<label for="">Domingo</label><input type="text" id="sund" name="" value="3803">
+<canvas id="myChart" ></canvas>
     </body>
-    <script>
-        var ctx= document.getElementById("myChart").getContext("2d");
-        var myChart= new Chart(ctx,{
-            type:"pie",
-            data:{
-                labels:['col1','col2','col3'],
-                datasets:[{
-                        label:'Num datos',
-                        data:[10,9,15],
-                        backgroundColor:[
-                            'rgb(66, 134, 244,0.5)',
-                            'rgb(74, 135, 72,0.5)',
-                            'rgb(229, 89, 50,0.5)'
-                        ]
-                }]
-            },
-            options:{
-                scales:{
-                    yAxes:[{
-                            ticks:{
-                                beginAtZero:true
-                            }
-                    }]
-                }
-            }
-        });
-    </script>
+    <script src="libs/grafi.js" charset="utf-8"></script>
+
 </html>
