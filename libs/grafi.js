@@ -36,7 +36,7 @@ function nuevagrafica() {
               data:{
                   labels:['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'],
                   datasets:[{
-                          label:'Num datos',
+                          label:'Usuarios diarios',
                           data:[mon,tues,wed,thur,fri,sat,sund],
                           backgroundColor:[
                               'rgb(66, 134, 244,0.5)',
@@ -67,7 +67,7 @@ function nuevagrafica() {
             data:{
                 labels:['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'],
                 datasets:[{
-                        label:'Num datos',
+                        label:'Usuarios diarios',
                         data:[12,9,15,33,34,11,7],
                         backgroundColor:[
                             'rgb(66, 134, 244,0.5)',
