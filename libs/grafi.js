@@ -32,7 +32,9 @@ function nuevagrafica() {
   var sund = $("#sund").val();
   var ctx= document.getElementById("myChart").getContext("2d");
           var myChart= new Chart(ctx,{
+
               type:"line",
+
               data:{
                   labels:['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'],
                   datasets:[{
